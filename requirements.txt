@@ -1,0 +1,17 @@
+TargetFramework: net48
+
+# Required for speech recognition and synthesis
+NuGet: System.Speech
+
+# Required to compile and run on Windows
+Platform: Windows OS
+
+# Required permissions
+- Must run as Administrator (for mouse/keyboard control)
+- Microphone access (for voice input)
+- Speaker access (for voice output)
+
+# Optional (already in .NET Framework)
+- System.Diagnostics
+- System.Runtime.InteropServices
+- System.Threading
